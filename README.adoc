@@ -135,3 +135,36 @@ Pour ce TP, il vous faudra simplement rendre le projet complet (`src`) ainsi que
 == Import dans Eclipse
 
 TO BE DONE...
+
+
+[Compte rendu tp github]
+Objectif du TP:
+Le but de ce TP est d'apprendre à compiler et construire une application Java en utilisant Maven, tout en étant indépendant de l'IDE préféré. Les étapes comprennent la mise en place d'un projet Maven, la résolution d'erreurs de compilation, l'ajout d'une méthode main pour créer une application exécutable, des améliorations du projet, et enfin, la génération de la documentation Javadoc.
+
+Étapes réalisées:
+
+Mise en place:
+
+Utilisation de Visual Studio Code comme IDE.
+Possibilité d'utiliser Gitpod pour faciliter l'accès à un environnement préconfiguré.
+Première compilation:
+
+Utilisation des commandes Maven en ligne de commande (mvn clean et mvn compile).
+Observation d'une erreur de compilation dans le code Java fourni.
+Correction de l'erreur de compilation:
+
+Ajout de la méthode main dans la classe HelloJava avec une simple instruction d'impression.
+Observation de la création du répertoire target après la compilation.
+Deuxième compilation:
+
+Utilisation de la commande mvn package pour construire une version exécutable (JAR).
+Observation de la création du fichier JAR et test de son exécution avec java -jar.
+Améliorations:
+
+Transfert des sources dans le répertoire src/java.
+Ajustement du fichier pom.xml pour s'assurer que les étapes précédentes produisent les résultats escomptés.
+Mise à jour du fichier README.doc avec des instructions pour la compilation, la documentation, et le lancement du projet.
+Génération de la documentation Javadoc:
+
+Recherche dans la documentation Maven pour trouver les commandes permettant de générer la documentation Javadoc automatiquement.
+Ajout des commentaires dans le code source pour faciliter la génération de la documentation.
